@@ -1,7 +1,7 @@
 {{!< default}}
 
 {{!-- Everything inside the #post tags pulls data from the post --}}
-{{#post}}
+{{#page}}
 
 <header class="post-header {{#if feature_image}} has-cover {{/if}}">
 	<div class="inner">
@@ -32,7 +32,7 @@
 	</article>
 </main>
 
-{{/post}}
+{{/page}}
 
 {{!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs --}}
 {{#contentFor "scripts"}}
