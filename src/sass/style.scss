@@ -1633,8 +1633,7 @@ textarea {
 			flex-grow: 1;
 		}
 
-		&.nav-twitter,
-		&.nav-facebook {
+		&.nav-social {
 			@media only screen and (max-width: $breakpoint-medium) {
 				display: none;
 			}

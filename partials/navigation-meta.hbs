@@ -1,20 +1,22 @@
 <ul class="nav-meta">
-  {{#if @site.twitter}}
-  <li class="nav-twitter">
-    <a aria-label="Twitter" href="{{twitter_url}}" title="{{@site.twitter}}" target="_blank">
+  <li class="nav-social">
+    <a aria-label="GitHub" href="https://github.com/lachlanbell" title="@lachlanbell on GitHub" target="_blank">
+      <i class="icon icon-github" aria-hidden="true"></i>
+      <span>@lachlanbell on GitHub</span>
+    </a>
+  </li>
+  <li class="nav-social">
+    <a aria-label="Twitter" href="https://twitter.com/lachyio" title="@lachyio" target="_blank">
       <i class="icon icon-twitter" aria-hidden="true"></i>
-      <span>{{@site.twitter}}</span>
+      <span>@lachyio</span>
     </a>
   </li>
-  {{/if}}
-  {{#if @site.facebook}}
-  <li class="nav-facebook">
-    <a aria-label="Facebook" href="{{facebook_url}}" title="{{@site.facebook}}" target="_blank">
-      <i class="icon icon-facebook" aria-hidden="true"></i>
-      <span>{{@site.facebook}}</span>
+  <li class="nav-social">
+    <a aria-label="LinkedIn" href="https://www.linkedin.com/in/lachlan-bell-216a851b1/" title="Lachlan Bell on LinkedIn" target="_blank">
+      <i class="icon icon-linkedin" aria-hidden="true"></i>
+      <span>Lachlan Bell on LinkedIn</span>
     </a>
   </li>
-  {{/if}}
   <li class="nav-search" style="display: none;">
     <a title="{{t "Search"}}">
       <i class="icon icon-search" aria-hidden="true"></i>
